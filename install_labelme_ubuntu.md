@@ -21,7 +21,6 @@
 - **[Install labelme](https://github.com/wkentaro/labelme#ubuntu)**
 
     ```
-    sudo apt-get install python3-pyqt5 pyqt5-dev-tools  # PyQt5
-    sudo pip3 install labelme
+    $sudo apt-get install python3-pyqt5 pyqt5-dev-tools  # PyQt5
+    $sudo pip3 install labelme
     ```
-
