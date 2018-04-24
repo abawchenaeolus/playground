@@ -1,6 +1,8 @@
 ## [Apache2](https://www.cyberciti.biz/faq/ubuntu-linux-start-restart-stop-apache-web-server/)
 
-    $ sudo service apache2 restart|stop|start
+```
+$ sudo service apache2 restart|stop|start
+```
 
 ## Python Stuff
 
@@ -35,5 +37,7 @@
 
 ## Mount
 
-    echo $UID # to get current user's uid
-    sudo mount -o username="username",password="password",uid=uid //ip/folder /mntdest
+```
+$ echo $UID # to get current user's uid
+$ sudo mount -o username="username",password="password",uid=uid //ip/folder /mntdest
+```
