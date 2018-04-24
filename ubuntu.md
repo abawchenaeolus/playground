@@ -30,6 +30,7 @@
     ```
     $ sudo apt-get install python3-pyqt5 pyqt5-dev-tools  # PyQt5
     $ sudo pip3 install labelme
+    $ pip install https://github.com/abawchen/labelme.git
     ```
 
 ## Mount
