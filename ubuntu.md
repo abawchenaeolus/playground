@@ -1,10 +1,6 @@
 ## [Apache2](https://www.cyberciti.biz/faq/ubuntu-linux-start-restart-stop-apache-web-server/)
 
-    ```
     $ sudo service apache2 restart|stop|start
-    ```
-
-
 
 ## Python Stuff
 
@@ -14,6 +10,7 @@
     $ sudo add-apt-repository ppa:deadsnakes/ppa
     $ sudo apt-get update
     $ sudo apt-get install python3.6
+    $ sudo apt-get install python-pip
     ```
 
 - [Prepare virtual environment](https://github.com/abawchen/cheatsheet/tree/master/python#virtual-environment)
@@ -34,3 +31,8 @@
     $ sudo apt-get install python3-pyqt5 pyqt5-dev-tools  # PyQt5
     $ sudo pip3 install labelme
     ```
+
+## Mount
+
+    echo $UID # to get current user's uid
+    sudo mount -o username="username",password="password",uid=uid //ip/folder /mntdest
