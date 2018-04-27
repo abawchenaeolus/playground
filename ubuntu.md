@@ -35,7 +35,16 @@ $ sudo service apache2 restart|stop|start
     # pip install https://github.com/abawchen/labelme.git
     ```
 
+- Trouble shooting
 
+    * [mysql.c:32:20: fatal error: Python.h: No such file or directory](https://github.com/openai/gym/issues/757#issuecomment-338700681)
+    
+    
+        ```
+        sudo apt-get install python3.6-dev libmysqlclient-dev
+        ```
+    
+    
 ## Node Stuff
 
 - Install npm
