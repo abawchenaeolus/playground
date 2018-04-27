@@ -41,6 +41,7 @@ $ sudo service apache2 restart|stop|start
     
     
         ```
+        sudo apt-get install python3-dev libpython3-dev
         sudo apt-get install python3.6-dev libmysqlclient-dev
         ```
     
